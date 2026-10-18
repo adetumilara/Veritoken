@@ -23,6 +23,7 @@ tests/e2e/blob-report/
 # Python deployment tooling
 __pycache__/
 *.py[cod]
+temp_auto_push.bat
 
 # Docker local environment — contains secrets, never commit
 .env.docker
@@ -47,6 +48,7 @@ deployment-verification-report.json
 Thumbs.db
 
 # IDE
-.vscode/
 .idea/
 *.swp
+.gitignore
+branch_structure.json
